@@ -1,13 +1,7 @@
-#include <iostream>
-#include <cstdio>
-#include <string>
-#include <cstring>
-#include <stdlib.h>
-#include <math.h>
 #include <ApplicationServices/ApplicationServices.h>
-#define print(x) std::cout << x << std::endl
-#define _USE_MATH_DEFINES
-
+#include <chrono>
+#include <thread>
+#include <time.h>
 
 void sendPress(int kc) {
 
@@ -39,10 +33,14 @@ void sendControl(int kc) {
 
 }
 
+void msleep(int t) {
+	std::this_thread::sleep_for(std::chrono::milliseconds(t));
+}
+
 int main()
 {
 	for (int i=0; i<20; i++) {
-		sleep(1);
+		usleep(1000000);
 		sendPress(16);
 		sendPress(14);
 		sendPress(36);
