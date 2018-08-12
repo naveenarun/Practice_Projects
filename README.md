@@ -9,5 +9,10 @@ Mac software that spams "ye" in chat. Input is rate-limited at 1 message/sec bec
 
 ![Blocked from facebook :(](./ye/ye_failure.png)
 
-### saa-d
-Website I'm building for a Redditor.
+## Project Euler Java
+
+Some java class files I wrote for solving a few Project Euler problems.
+
+## Project Euler Elixir
+
+Solutions to some Project Euler problems in Elixir.
