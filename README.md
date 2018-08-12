@@ -11,8 +11,8 @@ Mac software that spams "ye" in chat. Input is rate-limited at 1 message/sec bec
 
 ## Project Euler Java
 
-Some java class files I wrote for solving a few Project Euler problems.
+Some java class files I wrote for solving a few Project Euler problems. The number of solved problems is in the 97th percentile of all users.
 
 ## Project Euler Elixir
 
-Solutions to some Project Euler problems in Elixir.
+Solutions to some Project Euler problems in Elixir. The number of solved problems in the 93rd percentile of all users.
